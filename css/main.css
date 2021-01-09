@@ -20,7 +20,7 @@ body {
 
 header {
   background-color: #e2e2e2;
-  margin-top: 0;
+  margin-top: auto;
   display: flex;
   justify-content: space-around;
   align-items: center;
