@@ -8,7 +8,7 @@ html {
   box-sizing: inherit;
 }
 
-img {
+header img {
   display: flex;
   width: 2rem;
 }
@@ -26,12 +26,12 @@ header {
   align-items: center;
 }
 
-h1 {
+header h1 {
   margin: .5rem;
   padding: .75rem 1em .6em;
 }
 
-ul {
+nav ul {
   list-style-type: none;
   display: flex;
 }
@@ -40,11 +40,15 @@ li {
   padding: 0 1rem;
 }
 
-a {
+nav a {
   color: #0074d9;
   text-decoration: none;
 }
 
-a:hover {
+nav a:hover {
   color: #fff;
+}
+
+header p {
+  font-size: 1.125rem;
 }
