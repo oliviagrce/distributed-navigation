@@ -9,7 +9,8 @@ html {
 }
 
 img {
-  width: 100%;
+  display: flex;
+  width: 2rem;
 }
 
 body {
@@ -21,8 +22,29 @@ header {
   background-color: #e2e2e2;
   margin-top: 0;
   display: flex;
+  justify-content: space-around;
+  align-items: center;
 }
 
 h1 {
-  margin: 0 .5rem;
+  margin: .5rem;
+  padding: .75rem 1em .6em;
+}
+
+ul {
+  list-style-type: none;
+  display: flex;
+}
+
+li {
+  padding: 0 1rem;
+}
+
+a {
+  color: #0074d9;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #fff;
 }
